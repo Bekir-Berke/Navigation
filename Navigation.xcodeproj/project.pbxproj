@@ -11,6 +11,7 @@
 		E1C4DA332AF55FE20035D5FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4DA322AF55FE20035D5FC /* ContentView.swift */; };
 		E1C4DA352AF55FE30035D5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C4DA342AF55FE30035D5FC /* Assets.xcassets */; };
 		E1C4DA382AF55FE30035D5FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C4DA372AF55FE30035D5FC /* Preview Assets.xcassets */; };
+		E1C4DA3F2AF55FFA0035D5FC /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4DA3E2AF55FFA0035D5FC /* Platform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E1C4DA322AF55FE20035D5FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1C4DA342AF55FE30035D5FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1C4DA372AF55FE30035D5FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1C4DA3E2AF55FFA0035D5FC /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E1C4DA302AF55FE20035D5FC /* NavigationApp.swift */,
 				E1C4DA322AF55FE20035D5FC /* ContentView.swift */,
+				E1C4DA3E2AF55FFA0035D5FC /* Platform.swift */,
 				E1C4DA342AF55FE30035D5FC /* Assets.xcassets */,
 				E1C4DA362AF55FE30035D5FC /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C4DA3F2AF55FFA0035D5FC /* Platform.swift in Sources */,
 				E1C4DA332AF55FE20035D5FC /* ContentView.swift in Sources */,
 				E1C4DA312AF55FE20035D5FC /* NavigationApp.swift in Sources */,
 			);
